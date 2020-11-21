@@ -1,4 +1,4 @@
-# [McHacks 7](https://2020.mchacks.ca)
+# [McHacks 8](https://2021.mchacks.ca)
 
 This repository contains the code behind the static site of McHacks 8.
 
