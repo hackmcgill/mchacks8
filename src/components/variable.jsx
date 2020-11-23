@@ -2,6 +2,8 @@
 export const colorHackRed = "#f2463a"
 export const colorHackRedMed = "#f56f65"
 export const colorHackRedLight = "#f89790"
+export const colorPurple = "#5C63AB"
+export const colorPurpleLight = "#5C63AB19"
 export const colorHackYellow = "#ffd081"
 export const colorHackTeal = "#48DEE2"
 export const hackBlack = "#202020"

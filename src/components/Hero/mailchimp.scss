@@ -1,4 +1,4 @@
-$mailchimp-color-main: #f2463a;
+$mailchimp-color-main: #5C63AB;
 $mailchimp-color-light: #f56f65;
 $mailchimp-color-grey: #636363;
 $mailchimp-color-white: #fff;
@@ -10,20 +10,20 @@ $mailchimp-color-white: #fff;
   line-height: 32px;
   color: $mailchimp-color-grey;
   outline: 0;
-  border-width: 2px;
   width: 390px;
   background-color: $mailchimp-color-white;
   border-radius: 30px;
-  text-align: center;
+  text-align: left;
   display: inline-block;
   text-transform: none;
   border-radius: 30px;
-  border: 2px solid $mailchimp-color-main;
+  border: 1px solid $mailchimp-color-main;
   transition: all 0.15s ease-in-out;
   font-family: "Brown";
-  padding: 0 15px;
+  padding: 0 20px;
   z-index: 1;
   max-width: 100%;
+  height: 40px;
 }
 
 #mc_embed_signup input[type="email"]:focus,

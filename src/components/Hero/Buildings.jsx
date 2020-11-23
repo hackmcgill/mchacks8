@@ -8,8 +8,6 @@ export const Buildings = styled.img`
 
   @media only screen and (min-width: ${styleVars.lgUp}) {
     max-width: 200%;
-    margin-top: 100px;
-    margin-left: -120px;
   }
 `
 
