@@ -36,12 +36,14 @@ const Nav = ({
   )
   return (
     <Container>
-      <IconContainer>
-        <Link to="/">
-          <Icon src={Logo} />
-        </Link>
-      </IconContainer>
-      <Links>{NavItems()}</Links>
+      <div>
+        <IconContainer>
+          <Link to="/">
+            <Icon src={Logo} />
+          </Link>
+        </IconContainer>
+        <Links>{NavItems()}</Links>
+      </div>
       <Menu isOpen={true} styles={MobileMenu}>
         {NavItems()}
       </Menu>

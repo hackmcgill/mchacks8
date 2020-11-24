@@ -25,9 +25,6 @@ import PlanetImg from "../../assets/images/designs/planet-stars.svg"
 
 const Hero = () => (
   <>
-    <MLHContainer>
-      <MLHBadge src={MLH} />
-    </MLHContainer>
     <HeroStyles>
       <h2 class="hero__topsubheading">Create, build, and play @</h2>
       <h1 class="hero__heading">McHacks</h1>
