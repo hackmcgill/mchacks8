@@ -1,14 +1,14 @@
 import React from "react"
 
 import HeroStyles from "./HeroStyles"
-import { ArrowStyles, BirdStyles } from "./FloatingStyles";
+import { ArrowStyles, BirdStyles } from "./FloatingStyles"
 
 import Buildings from "./Buildings"
 // import Button from "./Button"
 import SignUpForm from "./SignUpForm"
 
 import BuildingImg from "../../assets/images/designs/buildings.svg"
-import BirdsImg from "../../assets/images/designs/birds.svg"
+import RoadImg from "../../assets/images/designs/road.svg"
 import ArrowImg from "../../assets/images/designs/arrow.svg"
 
 // const Dashboard = () => {
@@ -28,7 +28,7 @@ const Hero = () => (
         <ArrowStyles src={ArrowImg} />
         <ArrowStyles src={ArrowImg} style={{ left: 25 }} />
       </div>
-      <p class="hero__subheading"> McGill University · Feb 1-3, 2021</p>
+      <p class="hero__subheading"> McGill University · Jan 29-31, 2021</p>
       <p class="hero__email">
         Sign up for updates about McHacks. No spam, we promise.
       </p>
@@ -37,9 +37,9 @@ const Hero = () => (
       <Button onClick={Live}>Live Site</Button> */}
       <div class="hero__illustrations">
         <Buildings src={BuildingImg} />
-        <BirdStyles src={BirdsImg} />
       </div>
     </HeroStyles>
+      <img src={RoadImg} style={{width: '100%', marginBottom: '-6px'}} />
   </>
 )
 

@@ -2,9 +2,12 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 export const HeroStyles = styled.section`
+  max-width: 1440px;
+  margin: auto;
+
   position: relative;
   padding: 0 2rem;
-  margin-bottom: 400px;
+  margin-bottom: 144px;
   padding-top: 120px;
   z-index: 1;
   top: 50px;
@@ -103,8 +106,8 @@ export const HeroStyles = styled.section`
 
   .hero__illustrations {
     position: absolute;
-    top: -130px;
-    right: 320px;
+    top: -100px;
+    right: 309px;
     width: 900px;
     max-width: 100%;
     z-index: -2;
