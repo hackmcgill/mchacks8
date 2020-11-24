@@ -30,8 +30,8 @@ const IndexPage = () => {
         scrollToSponsor={() => scrollTo(sponsorRef)}
         scrollToFaq={() => scrollTo(faqRef)}
       />
+      <Hero />
       <Bg>
-        <Hero />
         <About scrollRef={aboutRef} />
       </Bg>
       <Sponsor scrollRef={sponsorRef} />

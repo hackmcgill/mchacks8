@@ -39,7 +39,7 @@ const Hero = () => (
         <Buildings src={BuildingImg} />
       </div>
     </HeroStyles>
-      <img src={RoadImg} style={{width: '100%', marginBottom: '-6px'}} />
+      <img src={RoadImg} style={{width: '100%', marginBottom: '-7px'}} />
   </>
 )
 
