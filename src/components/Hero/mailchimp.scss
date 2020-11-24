@@ -115,7 +115,7 @@ input:-webkit-autofill:active {
   height: 36px;
   padding: 0 14px;
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 1077px) {
     left: 401px;
     right: inherit;
   }
@@ -125,7 +125,7 @@ input:-webkit-autofill:active {
   position: relative;
   text-align: left;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1077px) {
     margin: auto;
     max-width: 390px;
   }

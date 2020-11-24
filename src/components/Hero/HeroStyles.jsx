@@ -6,27 +6,12 @@ export const HeroStyles = styled.section`
   margin: auto;
 
   position: relative;
-  padding: 0 2rem;
-  margin-top: 100px;
+  padding: 120px 144px;
+  margin-top: 120px;
   margin-bottom: 144px;
-  padding-top: 120px;
   z-index: 1;
   top: 50px;
 
-  @media only screen and (min-width: ${styleVars.mdUp}) {
-    padding: 120px 160px;
-  }
-
-  @media only screen and (max-width: ${styleVars.smUp}) {
-    margin-bottom: 8px;
-    top: 0;
-  }
-
-  .hero-header {
-    @media only screen and (max-width: ${styleVars.smUp}) {
-      text-align: center;
-    }
-  }
 
   .hero__heading {
     text-align: left;
@@ -35,11 +20,6 @@ export const HeroStyles = styled.section`
     font-weight: normal;
     color: ${styleVars.colorHackRed};
     position: relative;
-
-    @media only screen and (max-width: ${styleVars.smUp}) {
-      text-align: center;
-      font-size: 4.8rem;
-    }
   }
 
   .hero__shape {
@@ -60,11 +40,6 @@ export const HeroStyles = styled.section`
     color: ${styleVars.hackBlack};
     margin-top: 0;
     margin-bottom: 0;
-
-    @media only screen and (max-width: ${styleVars.smUp}) {
-      text-align: center;
-      padding-bottom: 0;
-    }
   }
 
   .hero__subheading {
@@ -74,22 +49,12 @@ export const HeroStyles = styled.section`
     color: ${styleVars.hackBlack60};
     margin-top: 0;
     margin-bottom: 0;
-
-    @media only screen and (max-width: ${styleVars.smUp}) {
-      text-align: center;
-      padding-bottom: 0;
-    }
   }
 
   .hero__cta {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 400;
-    text-align: center;
-
-    @media only screen and (min-width: ${styleVars.smUp}) {
-      font-size: 1.8rem;
-      text-align: left;
-    }
+    text-align: left;
   }
 
   .hero__email {
@@ -99,30 +64,74 @@ export const HeroStyles = styled.section`
     margin-top: 3rem;
     display: block;
     color: ${styleVars.hackBlack60};
-
-    @media only screen and (max-width: ${styleVars.smUp}) {
-      text-align: center;
-    }
   }
 
   .hero__illustrations {
     position: absolute;
-    top: -100px;
-    right: 309px;
-    width: 900px;
-    max-width: 100%;
+    top: -18px;
+    right: 34px;
+    width: 1173px;
     z-index: -2;
+  }
 
-    @media only screen and (max-width: ${styleVars.lgUp}) {
-      right: 37px;
-      top: -80px;
+  @media only screen and (min-width: 1078px) and (max-width: 1399px) {
+    max-width: 1280px;
+    padding: 100px 60px;
+    margin-top: 40px;
+    margin-bottom: 89px;
+
+    .hero__cta {
+      font-size: 1.4rem;
     }
 
-    @media only screen and (max-width: ${styleVars.smUp}) {
+    .hero__email {
+      font-size: 1.4rem;
+    }
+    
+    .hero__illustrations {
+      width: 880px;
+      top: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 1077px) {
+    padding: 0 2rem;
+    margin-top: 80px;
+    margin-bottom: 43px;
+    text-align: center;
+
+    .hero__heading {
+      font-size: 4.8rem;
+    }
+
+    .hero__subheading {
+      text-align: center;
+      padding-bottom: 0;
+    }
+
+    .hero__topsubheading {
+      text-align: center;
+      padding-bottom: 0;
+    }
+
+    .hero__cta {
+      font-size: 1.4rem;
+      text-align: center;
+    }
+
+    .hero__email {
+      font-size: 1.4rem;
+      text-align: center;
+    }
+
+    .hero__illustrations {
+      max-width: 100%;
+      margin-top: 80px;
+
+      position: static;
       top: 0;
       right: 0;
       left: 0;
-      position: relative;
     }
   }
 `
