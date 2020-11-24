@@ -12,8 +12,10 @@ export const Container = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 2px solid transparent;
+  transition: 0.25s border-color ease-in;
 
-  &.hasBorder {
+  &.has-border {
     border-bottom: 2px solid #f4f4f4;
   }
 `
