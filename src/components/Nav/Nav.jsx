@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 
 import { slide as Menu } from "react-burger-menu"
 import { Link } from "gatsby"
@@ -17,6 +17,16 @@ const Nav = ({
   scrollToSponsor = () => {},
   scrollToFaq = () => {},
 }) => {
+  const [hasBorder, setHasBorder] = useState(window.pageYOffset !== 0)
+  const handleScroll = () => {
+    setHasBorder(window.pageYOffset !== 0)
+  }
+
+  useEffect(() => {
+    document.addEventListener('scroll', handleScroll)
+    return () => document.removeEventListener('scroll', handleScroll)
+  }, [])
+
   const NavItems = () => (
     <>
       <NavLink onClick={scrollToAbout}>About</NavLink>
@@ -35,13 +45,15 @@ const Nav = ({
     </>
   )
   return (
-    <Container>
-      <IconContainer>
-        <Link to="/">
-          <Icon src={Logo} />
-        </Link>
-      </IconContainer>
-      <Links>{NavItems()}</Links>
+    <Container className={hasBorder ? 'has-border' : ''}>
+      <div>
+        <IconContainer>
+          <Link to="/">
+            <Icon src={Logo} />
+          </Link>
+        </IconContainer>
+        <Links>{NavItems()}</Links>
+      </div>
       <Menu isOpen={true} styles={MobileMenu}>
         {NavItems()}
       </Menu>
