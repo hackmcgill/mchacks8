@@ -6,7 +6,7 @@ export const Button = styled.button`
   font-weight: 600;
   font-size: 14px;
   text-transform: none;
-  background-color: ${styleVars.purple};
+  background-color: ${styleVars.colorHackRed};
   color: white;
   border-radius: 3.75em;
   border: none;
@@ -20,8 +20,8 @@ export const Button = styled.button`
   //   width: 175px;
 
   &:hover {
-    background-color: ${styleVars.purpleLight};
-    color: ${styleVars.purple};
+    background-color: #f56f65;
+    color: white;
   }
 `
 
