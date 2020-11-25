@@ -23,8 +23,8 @@ const Sponsor = ({ scrollRef }) => (
           sponsors help bring it to life! Spend a weekend at McHacks to witness
           tomorrow’s leaders as they experiment with your technologies and solve
           problems from the ground up.
-          <br></br>
-          <br></br>
+        </p>
+        <p>
           Join us as we shake the world of technology for 24 hours. We've got a
           table with your name on it!
         </p>

@@ -1,10 +1,11 @@
 import styled from "styled-components"
+import * as styleVars from "../variable"
+
 
 export const Container = styled.nav`
   z-index: 2;
-  height: 7rem;
+  height: 9rem;
   background-color: white;
-  border-bottom: 2px solid #f4f4f4;
   position: fixed;
   top: 0;
   left: 0;
@@ -12,6 +13,12 @@ export const Container = styled.nav`
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  transition: 0.4s box-shadow ease-in;
+
+  &.has-border {
+    box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.07);
+  }
 `
 
 export default Container
