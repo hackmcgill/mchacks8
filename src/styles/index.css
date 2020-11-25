@@ -37,6 +37,7 @@ b {
 
 a {
     color: #f2463a;
+    transition: color 0.2s ease-in;
 }
 
 a:hover {

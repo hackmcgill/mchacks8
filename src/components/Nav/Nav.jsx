@@ -11,18 +11,20 @@ import NavLink from "./NavLink"
 import MobileMenu from "./MobileMenu"
 
 import Logo from "../../assets/images/logos/mchacks-martlet.svg"
+import SocialMediaBar from "../SocialMedia/SocialMediaBar"
 
 const Nav = ({
   scrollToAbout = () => {},
   scrollToSponsor = () => {},
   scrollToFaq = () => {},
 }) => {
-  const [hasBorder, setHasBorder] = useState(window.pageYOffset !== 0)
+  const [hasBorder, setHasBorder] = useState(false)
   const handleScroll = () => {
     setHasBorder(window.pageYOffset !== 0)
   }
 
   useEffect(() => {
+    handleScroll()
     document.addEventListener('scroll', handleScroll)
     return () => document.removeEventListener('scroll', handleScroll)
   }, [])
@@ -32,16 +34,6 @@ const Nav = ({
       <NavLink onClick={scrollToAbout}>About</NavLink>
       <NavLink onClick={scrollToSponsor}>Sponsor</NavLink>
       <NavLink onClick={scrollToFaq}>FAQ</NavLink>
-      <NavLink href="/live" target="_blank">
-        Live
-      </NavLink>
-      <NavLink
-        href="https://2019.mchacks.ca"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        2019
-      </NavLink>
     </>
   )
   return (
@@ -52,7 +44,12 @@ const Nav = ({
             <Icon src={Logo} />
           </Link>
         </IconContainer>
-        <Links>{NavItems()}</Links>
+        <Links>
+          {NavItems()}
+          <div class="Nav__socials">
+            <SocialMediaBar />
+          </div>
+        </Links>
       </div>
       <Menu isOpen={true} styles={MobileMenu}>
         {NavItems()}
