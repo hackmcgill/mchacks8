@@ -18,12 +18,13 @@ const Nav = ({
   scrollToSponsor = () => {},
   scrollToFaq = () => {},
 }) => {
-  const [hasBorder, setHasBorder] = useState(window.pageYOffset !== 0)
+  const [hasBorder, setHasBorder] = useState(false)
   const handleScroll = () => {
     setHasBorder(window.pageYOffset !== 0)
   }
 
   useEffect(() => {
+    handleScroll()
     document.addEventListener('scroll', handleScroll)
     return () => document.removeEventListener('scroll', handleScroll)
   }, [])
