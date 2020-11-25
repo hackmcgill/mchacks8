@@ -2,9 +2,9 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 export const NavLink = styled.a`
-  margin-left: 2rem;
+  margin-right: 2.8rem;
   cursor: pointer;
-  color: ${styleVars.hackBlack60};
+  color: ${styleVars.purple};
   text-decoration: none;
 
   &.active,
