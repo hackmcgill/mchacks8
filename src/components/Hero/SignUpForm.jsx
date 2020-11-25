@@ -9,19 +9,19 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 
 export const ArrowButton = styled.button`
-  background-color: ${styleVars.colorHackRed};
+  background-color: ${styleVars.colorPurple};
   color: #fff;
   border-radius: 2em;
   border: none;
   transition: all 0.15s ease-in-out;
   top: 1px;
   right: 0;
-  height: 36px;
+  height: 40px;
   padding: 0 14px;
   margin-left: -8px;
 
   &:hover {
-    background-color: ${styleVars.colorHackRedMed};
+    background-color: ${styleVars.colorPurple};
   }
 `
 
