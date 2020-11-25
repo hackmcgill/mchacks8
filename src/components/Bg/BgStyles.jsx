@@ -4,10 +4,7 @@ import * as styleVars from "../variable"
 export const BgStyles = styled.section`
   margin-bottom: 60px;
   background: ${styleVars.hackBlack5};
-
-  @media only screen and (max-width: ${styleVars.smUp}) {
-    background-position: 95% 400px;
-  }
+  border-bottom: 20px solid #1f244d;
 `
 
 export default BgStyles
