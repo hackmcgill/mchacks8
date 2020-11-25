@@ -6,12 +6,11 @@ export const HeroStyles = styled.section`
   margin: auto;
 
   position: relative;
-  padding: 120px 144px;
+  padding: 128px 144px;
   margin-top: 120px;
-  margin-bottom: 144px;
+  margin-bottom: 116px;
   z-index: 1;
   top: 50px;
-
 
   .hero__heading {
     text-align: left;
@@ -22,24 +21,13 @@ export const HeroStyles = styled.section`
     position: relative;
   }
 
-  .hero__shape {
-    position: absolute;
-    width: 38px;
-    height: 26.03px;
-    left: 444.03px;
-    top: 404px;
-
-    background: #F2463A;
-    transform: rotate(90deg);
-  }
-
   .hero__topsubheading {
     font-size: 1.875em;
     font-weight: 400;
     text-align: left;
     color: ${styleVars.hackBlack};
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: -1.6rem;
   }
 
   .hero__subheading {
@@ -47,8 +35,9 @@ export const HeroStyles = styled.section`
     font-weight: 400;
     text-align: left;
     color: ${styleVars.hackBlack60};
-    margin-top: 0;
+    margin-top: 1rem;
     margin-bottom: 0;
+    font-family: 'Brown', san-serif;
   }
 
   .hero__cta {
@@ -60,10 +49,12 @@ export const HeroStyles = styled.section`
   .hero__email {
     font-weight: 400;
     text-align: left;
-    margin-bottom: 1rem;
-    margin-top: 3rem;
+    margin-bottom: 1.2rem;
+    margin-top: 4.8rem;
     display: block;
     color: ${styleVars.hackBlack60};
+    font-family: 'Brown', san-serif;
+    font-size: 1.4rem;
   }
 
   .hero__illustrations {
@@ -78,19 +69,15 @@ export const HeroStyles = styled.section`
     max-width: 1280px;
     padding: 100px 60px;
     margin-top: 40px;
-    margin-bottom: 89px;
+    margin-bottom: 85px;
 
     .hero__cta {
-      font-size: 1.4rem;
-    }
-
-    .hero__email {
       font-size: 1.4rem;
     }
     
     .hero__illustrations {
       width: 880px;
-      top: 40px;
+      top: 50px;
     }
   }
 
@@ -101,37 +88,51 @@ export const HeroStyles = styled.section`
     text-align: center;
 
     .hero__heading {
-      font-size: 4.8rem;
-    }
-
-    .hero__subheading {
-      text-align: center;
-      padding-bottom: 0;
+      font-size: 48px;
     }
 
     .hero__topsubheading {
       text-align: center;
       padding-bottom: 0;
+      font-size: 20px;
+      margin-bottom: -10px;
+    }
+
+    .hero__subheading {
+      text-align: center;
+      margin: auto;
+      margin-top: 20px;
+      font-size: 18px;
+      border-top: 2px solid ${styleVars.colorPurpleLight};
+      border-bottom: 2px solid ${styleVars.colorPurpleLight};
+      padding: 8px 0;
+      max-width: 480px;
     }
 
     .hero__cta {
-      font-size: 1.4rem;
+      font-size: 14px;
       text-align: center;
     }
 
     .hero__email {
-      font-size: 1.4rem;
       text-align: center;
+      margin-top: 36px;
     }
 
     .hero__illustrations {
       max-width: 100%;
-      margin-top: 80px;
+      margin-top: 100px;
 
       position: static;
       top: 0;
       right: 0;
       left: 0;
+    }
+  }
+
+  @media only screen and (max-width: 410px) {
+    .hero__line {
+      display: block;
     }
   }
 `
