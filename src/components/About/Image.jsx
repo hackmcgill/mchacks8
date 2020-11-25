@@ -2,10 +2,11 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 export const Image = styled.img`
-  max-width: 50%;
   height: auto;
   object-fit: contain;
-  padding-right: 2rem;
+  position: relative;
+  left: 43px;
+  top: 24px;
 
   @media only screen and (max-width: ${styleVars.smUp}) {
     max-width: 80%;
