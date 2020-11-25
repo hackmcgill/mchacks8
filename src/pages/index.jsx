@@ -33,8 +33,8 @@ const IndexPage = () => {
       <Hero />
       <Bg>
         <About scrollRef={aboutRef} />
+        <Sponsor scrollRef={sponsorRef} />
       </Bg>
-      <Sponsor scrollRef={sponsorRef} />
       <FAQ scrollRef={faqRef} />
       <Logos />
       <Footer />
