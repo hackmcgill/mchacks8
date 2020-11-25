@@ -1,4 +1,6 @@
 import styled from "styled-components"
+import * as styleVars from "../variable"
+
 
 export const Container = styled.nav`
   z-index: 2;
@@ -12,11 +14,10 @@ export const Container = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid transparent;
-  transition: 0.25s border-color ease-in;
+  transition: 0.4s box-shadow ease-in;
 
   &.has-border {
-    border-bottom: 2px solid #f4f4f4;
+    box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.07);
   }
 `
 
