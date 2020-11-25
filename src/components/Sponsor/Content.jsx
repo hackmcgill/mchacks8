@@ -3,14 +3,20 @@ import * as styleVars from "../variable"
 
 export const Content = styled.div`
   display: flex;
-  padding: 2rem 1rem;
+  justify-content: space-between;
   max-width: 1000px;
   margin: auto;
-  margin-bottom: 5rem;
+  padding-top: 96px;
+  margin-bottom: 96px;
 
-  @media only screen and (max-width: ${styleVars.smUp}) {
-    flex-direction: column;
-    padding: 4rem 2rem;
+  @media only screen and (max-width: 1345px) {
+    max-width: 880px;
+  }
+
+  @media only screen and (max-width: 1118px) {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 0 30px;
   }
 `
 

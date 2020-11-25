@@ -3,7 +3,7 @@ import * as styleVars from "../variable"
 
 export const Button = styled.button`
   font-family: Brown, sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 14px;
   text-transform: none;
   background-color: ${styleVars.purple};
