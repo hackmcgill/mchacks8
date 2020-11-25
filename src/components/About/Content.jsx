@@ -7,10 +7,15 @@ export const Content = styled.div`
   max-width: 1200px;
   margin: auto;
   padding-top: 96px;
-  margin-bottom: 66px;
+  margin-bottom: 96px;
 
-  @media only screen and (max-width: ${styleVars.smUp}) {
+  @media only screen and (max-width: 1345px) {
+    max-width: 1000px;
+  }
+
+  @media only screen and (max-width: 1118px) {
     flex-direction: column;
+    justify-content: center;
   }
 `
 

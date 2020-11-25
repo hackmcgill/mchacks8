@@ -25,6 +25,11 @@ export const Text = styled.div`
     padding: 0;
     margin-bottom: 1rem;
   }
+
+  @media only screen and (max-width: 1118px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
 `
 
 export default Text
