@@ -8,7 +8,7 @@ export const HeroStyles = styled.section`
   position: relative;
   padding: 128px 144px;
   margin-top: 120px;
-  margin-bottom: 116px;
+  margin-bottom: 47px;
   z-index: 1;
   top: 50px;
 
@@ -69,7 +69,7 @@ export const HeroStyles = styled.section`
     max-width: 1280px;
     padding: 100px 60px;
     margin-top: 40px;
-    margin-bottom: 85px;
+    margin-bottom: 16px;
 
     .hero__cta {
       font-size: 1.4rem;
