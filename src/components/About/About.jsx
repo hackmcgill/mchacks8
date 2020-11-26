@@ -10,18 +10,20 @@ const About = ({ scrollRef }) => (
   <div ref={scrollRef}>
     <Content>
       <Text>
-        <h2>Behind Canada’s original collegiate hackathon</h2>
+        <h2>Canada’s original collegiate hackathon goes global!</h2>
         <p>
-          McHacks isn't your typical hackathon, and our hackers aren't either!
-          For 24 hours, over 500 of the boldest young minds in North America
-          come together for a weekend of beginner-to-pro workshops, decked-out
-          hardware, delicious food, and some epic hacking.
+          Each year McHacks is proud to welcome a diverse group of students from
+          across North America to Montreal for a jam-packed weekend of hacking.
+          This year, McHacks is going global! For 36 hours, the best and brightest
+          students from around the world will connect remotely and build their dreams.
         </p>
         <p>
-          Whether you're writing your first line of code, playing around with
-          APIs, or building the next blockchain, McHacks has everything setup
-          for your next big hack. We hope you'll join us this winter as we jump
-          into another round of Canada's favourite hackathon!
+          Whether you're writing your first line of code, playing around with APIs,
+          or building the next blockchain, McHacks is the place for you. We offer
+          workshops, mentorship, and APIs to get you started, and we’re working
+          hard to make sure everything you need for your next big hack is accessible
+          from home. We hope you’ll join us remotely this winter for an exciting
+          eighth edition of Canada’s favorite hackathon!
         </p>
       </Text>
       <Image src={AboutImg} />

@@ -1,12 +1,11 @@
 import styled from "styled-components"
-import * as styleVars from "../variable"
 
 export const Image = styled.img`
   height: auto;
   object-fit: contain;
   position: relative;
-  left: 43px;
-  top: 24px;
+  left: 45px;
+  top: 30px;
   width: 671px;
   height: auto;
   
