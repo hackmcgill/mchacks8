@@ -17,16 +17,17 @@ const Sponsor = ({ scrollRef }) => (
     <Content>
       <Image src={SponsorImg} />
       <Text>
-        <h2>Interested in Sponsoring?</h2>
+        <h2>Interested in sponsoring McHacks?</h2>
         <p>
-          Hosting Canada’s favourite hackathon isn't easy, and our generous
-          sponsors help bring it to life! Spend a weekend at McHacks to witness
-          tomorrow’s leaders as they experiment with your technologies and solve
-          problems from the ground up.
+          This winter, the best and brightest students from around the
+          world will connect remotely for 36 hours to shake the world
+          of technology. We want you to be a part of this incredible
+          experience, and we need your help to bring it to life!
         </p>
         <p>
-          Join us as we shake the world of technology for 24 hours. We've got a
-          table with your name on it!
+          Spend a weekend with McHacks and witness tomorrow’s leaders
+          using your technologies to solve real problems from the ground
+          up. We've got a virtual table with your name on it!
         </p>
         <Button onClick={mailTo}>Become a Sponsor</Button>
       </Text>
