@@ -24,13 +24,16 @@ const Hero = () => (
     <HeroStyles>
       <h2 class="hero__topsubheading">Hack from home at</h2>
       <div class="hero-header">
-        <h1 class="hero__heading" style={{ display: 'inline' }}>McHacks</h1>
+        <h1 class="hero__heading" style={{ display: "inline" }}>
+          McHacks
+        </h1>
         <ArrowStyles src={ArrowImg} />
         <ArrowStyles src={ArrowImg} style={{ left: 25 }} />
       </div>
       <p class="hero__subheading">McGill University · Jan 29-31, 2021</p>
       <p class="hero__email">
-        <span class="hero__line">Sign up for updates on McHacks.</span> <span class="hero__line">No spam, we promise.</span>
+        <span class="hero__line">Sign up for updates on McHacks.</span>{" "}
+        <span class="hero__line">No spam, we promise.</span>
       </p>
       <SignUpForm />
       {/* <Button onClick={Dashboard}>Apply →</Button>
@@ -39,7 +42,11 @@ const Hero = () => (
         <Buildings src={BuildingImg} />
       </div>
     </HeroStyles>
-    <img src={RoadImg} style={{width: '100%', marginBottom: '-9px'}} alt="Background" />
+    <img
+      src={RoadImg}
+      style={{ width: "100%", marginBottom: "-9px" }}
+      alt="Background"
+    />
   </>
 )
 

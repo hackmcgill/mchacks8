@@ -37,7 +37,7 @@ export const HeroStyles = styled.section`
     color: ${styleVars.hackBlack60};
     margin-top: 1rem;
     margin-bottom: 0;
-    font-family: 'Brown', san-serif;
+    font-family: "Brown", san-serif;
   }
 
   .hero__cta {
@@ -53,7 +53,7 @@ export const HeroStyles = styled.section`
     margin-top: 4.8rem;
     display: block;
     color: ${styleVars.hackBlack60};
-    font-family: 'Brown', san-serif;
+    font-family: "Brown", san-serif;
     font-size: 1.4rem;
   }
 
@@ -74,7 +74,7 @@ export const HeroStyles = styled.section`
     .hero__cta {
       font-size: 1.4rem;
     }
-    
+
     .hero__illustrations {
       width: 880px;
       top: 50px;
