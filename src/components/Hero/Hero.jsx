@@ -28,7 +28,7 @@ const Hero = () => (
         <ArrowStyles src={ArrowImg} />
         <ArrowStyles src={ArrowImg} style={{ left: 25 }} />
       </div>
-      <p class="hero__subheading">McGill University · Jan 29-31, 2021</p>
+      <p class="hero__subheading">McGill · Virtual · Jan 29-31, 2021</p>
       <p class="hero__email">
         <span class="hero__line">Sign up for updates on McHacks.</span> <span class="hero__line">No spam, we promise.</span>
       </p>
