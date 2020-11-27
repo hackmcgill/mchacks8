@@ -8,7 +8,7 @@ export const HeroStyles = styled.section`
   position: relative;
   padding: 128px 144px;
   margin-top: 120px;
-  margin-bottom: 47px;
+  margin-bottom: 79px;
   z-index: 1;
   top: 50px;
 
@@ -69,7 +69,7 @@ export const HeroStyles = styled.section`
     max-width: 1280px;
     padding: 100px 60px;
     margin-top: 40px;
-    margin-bottom: 16px;
+    margin-bottom: 48px;
 
     .hero__cta {
       font-size: 1.4rem;
@@ -99,14 +99,15 @@ export const HeroStyles = styled.section`
     }
 
     .hero__subheading {
+      display: block;
       text-align: center;
       margin: auto;
-      margin-top: 20px;
+      margin-top: 16px;
       font-size: 18px;
       border-top: 2px solid ${styleVars.colorPurpleLight};
       border-bottom: 2px solid ${styleVars.colorPurpleLight};
       padding: 8px 0;
-      max-width: 480px;
+      max-width: 440px;
     }
 
     .hero__cta {
@@ -121,7 +122,7 @@ export const HeroStyles = styled.section`
 
     .hero__illustrations {
       max-width: 100%;
-      margin-top: 100px;
+      margin-top: 120px;
 
       position: static;
       top: 0;
