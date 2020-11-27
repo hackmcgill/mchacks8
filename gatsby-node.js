@@ -8,7 +8,7 @@ exports.createPages = ({ graphql, actions }) => {
   createRedirect({
     fromPath: "/promo",
     toPath:
-      "https://docs.google.com/document/d/1A_46M2Aihc3p7H1pfZSbYuz9d9_unxMZjckrZ2mpXyE/",
+      "https://docs.google.com/document/d/1ly4fqNVvxZSvoVW3NTE5NoVtvD6nj2czLc7J1EUbNtY/edit?usp=sharing",
   })
   createRedirect({
     fromPath: "/waiver",
