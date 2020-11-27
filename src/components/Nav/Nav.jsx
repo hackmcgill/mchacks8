@@ -34,6 +34,7 @@ const Nav = ({
       <NavLink onClick={scrollToAbout}>About</NavLink>
       <NavLink onClick={scrollToSponsor}>Sponsor</NavLink>
       <NavLink onClick={scrollToFaq}>FAQ</NavLink>
+      <NavLink href="https://app.mchacks.ca">Apply</NavLink>
     </>
   )
   return (
