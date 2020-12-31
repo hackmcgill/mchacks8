@@ -13,6 +13,8 @@ import MobileMenu from "./MobileMenu"
 import Logo from "../../assets/images/logos/mchacks-martlet.svg"
 import SocialMediaBar from "../SocialMedia/SocialMediaBar"
 
+import MLHBanner from "../../assets/images/mlh-trust-badge-2021-white.svg"
+
 const Nav = ({
   scrollToAbout = () => {},
   scrollToSponsor = () => {},
@@ -20,7 +22,7 @@ const Nav = ({
 }) => {
   const [hasBorder, setHasBorder] = useState(false)
   const handleScroll = () => {
-    setHasBorder(window.pageYOffset !== 0)
+    setHasBorder(window.pageYOffset > 15)
   }
 
   useEffect(() => {
@@ -45,10 +47,13 @@ const Nav = ({
             <Icon src={Logo} />
           </Link>
         </IconContainer>
-        <Links>
+        <Links hasBorder={hasBorder}>
           {NavItems()}
           <div class="Nav__socials">
             <SocialMediaBar />
+          </div>
+          <div class="Nav__mlh-banner">
+            <img src={MLHBanner} alt="mlh-banner" />
           </div>
         </Links>
       </div>
