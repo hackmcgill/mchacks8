@@ -19,15 +19,15 @@ const Sponsor = ({ scrollRef }) => (
       <Text>
         <h2>Interested in sponsoring McHacks?</h2>
         <p>
-          This winter, the best and brightest students from around the
-          world will connect remotely for 36 hours to shake the world
-          of technology. We want you to be a part of this incredible
-          experience, and we need your help to bring it to life!
+          This winter, the best and brightest students from around the world
+          will connect remotely for 36 hours to shake the world of technology.
+          We want you to be a part of this incredible experience, and we need
+          your help to bring it to life!
         </p>
         <p>
-          Spend a weekend with McHacks and witness tomorrow’s leaders
-          using your technologies to solve real problems from the ground
-          up. We've got a virtual table with your name on it!
+          Spend a weekend with McHacks and witness tomorrow’s leaders using your
+          technologies to solve real problems from the ground up. We've got a
+          virtual table with your name on it!
         </p>
         <Button onClick={mailTo}>Become a Sponsor</Button>
       </Text>

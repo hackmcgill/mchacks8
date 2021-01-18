@@ -2,11 +2,29 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 export const Container = styled.div`
-  max-width: 720px;
+  max-width: 1440px;
   text-align: center;
   margin: auto;
   margin-bottom: 100px;
   margin-top: 100px;
+  height: 100%;
+  .robot {
+    height: 234px;
+    width: 181px;
+    position: absolute;
+    left: 50%;
+    margin-left: 23%;
+
+    @media only screen and (min-width: ${styleVars.lgUp}) {
+      margin-left: 460px;
+    }
+
+    @media only screen and (max-width: ${styleVars.smUp}) {
+      left: auto;
+      margin-left: 0;
+      right: 20px;
+    }
+  }
 
   &.hidden {
     display: none !important;
