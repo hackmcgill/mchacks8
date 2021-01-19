@@ -25,6 +25,7 @@ import twilio from "../../assets/images/sponsor/twilio.png"
 import vercel from "../../assets/images/sponsor/vercel.svg"
 import voiceflow from "../../assets/images/sponsor/logo_black.png"
 import wolfram from "../../assets/images/sponsor/wolfram.png"
+import bigbang from "../../assets/images/sponsor/new/BigBang_logo_colour.svg"
 
 
 import ivey from "../../assets/images/sponsor/ivey.svg"
@@ -72,13 +73,23 @@ const Logos = ({ scrollRef }) => (
         <Image src={biztree} style={{ width: "700px" }} />
       </NavLink>
     </Content>
-    <Content style={{ justifyContent: "space-evenly" }}><NavLink
+    <Content style={{ justifyContent: "space-evenly" }}>
+      <NavLink
         href="https://www.fdmgroup.com/en-ca/ca-graduates/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <Image
           src={fdm}
+          style={{ width: "100%", maxWidth: "250px", height: "50px" }}
+        />
+      </NavLink>
+      <NavLink
+        href="https://www.ivey.uwo.ca/msc/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image src={ivey}
           style={{ width: "100%", maxWidth: "250px", height: "50px" }}
         />
       </NavLink>
@@ -95,12 +106,13 @@ const Logos = ({ scrollRef }) => (
     {/* Tier 3/Byte sponsors */}
     <Content style={{ justifyContent: "space-evenly", alignItems: "center" }}>
       <NavLink
-        href="https://www.ivey.uwo.ca/msc/"
+        href="https://connect.bigbang360.com/mchacks-21-careers"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={ivey}
-          style={{ width: "100%", maxWidth: "90px", transform: "scale(1.7)" }}
+        <Image
+          src={bigbang}
+          style={{ width: "100%", maxWidth: "100px", transform: "scale(1.7)" }}
         />
         {/* need an image link for this company */}
       </NavLink>
