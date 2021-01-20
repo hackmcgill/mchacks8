@@ -36,6 +36,7 @@ import balsamiq from "../../assets/images/sponsor/new/balsamiq-logo-screen.svg"
 import flinks from "../../assets/images/sponsor/new/flinks4.png"
 import ludia from "../../assets/images/sponsor/new/Ludia 1920 x 1080.png"
 import ibwave from "../../assets/images/sponsor/new/logo-iBwave-RED.png"
+import echoar from "../../assets/images/sponsor/new/echoAR.png"
 
 const Logos = ({ scrollRef }) => (
   <Container ref={scrollRef}>
@@ -85,11 +86,11 @@ const Logos = ({ scrollRef }) => (
         />
       </NavLink>
       <NavLink
-        href="https://www.ivey.uwo.ca/msc/"
+        href="https://gorillagroup.com"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={ivey}
+        <Image src={gorilla}
           style={{ width: "100%", maxWidth: "250px", height: "50px" }}
         />
       </NavLink>
@@ -137,7 +138,7 @@ const Logos = ({ scrollRef }) => (
     {/* Tier 4/In-Kind sponsors */}
     <Content style={{ justifyContent: "space-evenly" }}>
       <NavLink
-        href="https://https://www.jetbrains.com/"
+        href="https://www.jetbrains.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -149,6 +150,13 @@ const Logos = ({ scrollRef }) => (
         rel="noopener noreferrer"
       >
         <Image src={netlify} style={{ width: "100%", maxWidth: "75px" }} />
+      </NavLink>
+      <NavLink
+        href="https://www.echoar.xyz/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image src={echoar} style={{ width: "100%", maxWidth: "75px" }} />
       </NavLink>
       <NavLink
         href="https://www.voiceflow.com"
