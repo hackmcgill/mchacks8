@@ -2,7 +2,7 @@ import styled from "styled-components"
 import * as styleVars from "../variable"
 
 export const Container = styled.section`
-  max-width: 720px;
+  max-width: 1080px;
   text-align: center;
   margin: auto;
   margin-bottom: 100px;
@@ -44,26 +44,24 @@ export const Container = styled.section`
     }
   }
 
-  .Events {
-    margin-top: 40px;
-  }
-
   .Event {
-    text-align: left;
+    display: flex;
+    border-bottom: 2px solid ${styleVars.hackBlack10};
 
     .time {
-      background: #fff;
+      flex: 1;
+      padding: 24px 32px 24px 32px;
+      box-sizing: border-box;
       text-align: left;
-      padding-bottom: 6px;
-      margin-left: 24px;
-      padding-left: 8px;
-      padding-right: 10px;
-      position: relative;
-      top: 17px;
-      display: inline-block;
+      display: flex;
+      align-items: center;
 
       .to {
         font-size: 0.85em;
+      }
+
+      .type {
+        color: ${styleVars.colorHackRed};
       }
     }
 
@@ -74,7 +72,6 @@ export const Container = styled.section`
       text-align: left;
       display: flex;
       align-items: center;
-      border-top: 2px solid ${styleVars.hackBlack10};
 
       .overview {
         flex: 1;
@@ -104,42 +101,52 @@ export const Container = styled.section`
           font-family: "Hind Siliguri", sans-serif;
         }
       }
-
-      .icon {
-        font-size: 2.4em;
-        margin: 0 20px 0 40px;
-      }
-
-      .icon > *:before {
-        background: linear-gradient(#f2463a, #f2463a55);
-        background-clip: text;
-        text-fill-color: transparent;
-      }
+    }
+    .icon {
+      flex: 1;
+      padding: 24px 32px 24px 32px;
+      box-sizing: border-box;
+      font-size: 2.4em;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: auto;
+      margin-bottom: auto;
     }
 
-    &.type-activity {
-      .icon {
-        color: ${styleVars.colorHackTeal};
-      }
+    .icon > *:before {
+      background: linear-gradient(#f2463a, #f2463a55);
+      background-clip: text;
+      text-fill-color: transparent;
     }
 
     &.type-main-event {
       .icon {
         color: ${styleVars.colorHackRed};
       }
-    }
-
-    &.type-food {
-      .icon {
-        color: ${styleVars.colorHackYellow};
+      .activityType {
+        color: ${styleVars.colorHackRed};
       }
     }
 
+    &.type-activity {
+      .icon {
+        color: ${styleVars.colorPurplePale};
+      }
+      .activityType {
+        color: ${styleVars.colorPurple};
+      }
+    }
+
+    &.type-food,
     &.type-workshop,
     &.type-travel,
     &.type-rest {
       .icon {
-        color: ${styleVars.hackBlack30};
+        color: ${styleVars.colorPurple};
+      }
+      .activityType {
+        color: ${styleVars.colorPurple};
       }
     }
   }

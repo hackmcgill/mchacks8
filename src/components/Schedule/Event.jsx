@@ -3,11 +3,11 @@ import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faPizzaSlice,
-  faGraduationCap,
-  faBasketballBall,
-  faLaptopCode,
+  faGamepad,
+  faLaptop,
   faBus,
   faBed,
+  faCog,
 } from "@fortawesome/free-solid-svg-icons"
 
 const Event = ({
@@ -21,13 +21,13 @@ const Event = ({
 }) => {
   let logo = <div></div>
   if (type === "Workshop") {
-    logo = <FontAwesomeIcon icon={faGraduationCap} />
+    logo = <FontAwesomeIcon icon={faCog} />
   } else if (type === "Activity") {
-    logo = <FontAwesomeIcon icon={faBasketballBall} />
+    logo = <FontAwesomeIcon icon={faGamepad} />
   } else if (type === "Food") {
     logo = <FontAwesomeIcon icon={faPizzaSlice} />
   } else if (type === "Main Event") {
-    logo = <FontAwesomeIcon icon={faLaptopCode} />
+    logo = <FontAwesomeIcon icon={faLaptop} />
   } else if (type === "Travel") {
     logo = <FontAwesomeIcon icon={faBus} />
   } else if (type === "Rest") {
@@ -39,21 +39,22 @@ const Event = ({
       <div className="time">
         <div className="start">
           {startTime}
-          {endTime ? <span> to {endTime}</span> : ""}
+          {endTime ? <span> - {endTime}</span> : ""}
+          <br />
+          <div className="activityType">{type.toUpperCase()}</div>
         </div>
       </div>
       <div className="detail">
         <div className="overview">
-          <div className="type">{type}</div>
           <div className="name">
             {name}
             <small>{subtitle}</small>
           </div>
           {description ? <div className="description">{description}</div> : ""}
-          <div className="location">@ {location}</div>
+          <div className="location"># {location}</div>
         </div>
-        <div className="icon">{logo}</div>
       </div>
+      <div className="icon">{logo}</div>
     </div>
   )
 }
