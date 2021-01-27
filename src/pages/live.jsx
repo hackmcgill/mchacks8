@@ -21,7 +21,6 @@ const LivePage = () => {
       <SEO />
       <LiveNav switchPage={setActivePage} activePage={activePage} />
       <Schedule visible={activePage === "schedule"} />
-      <Maps visible={activePage === "maps"} />
       <Info visible={activePage === "info"} />
       <Resources visible={activePage === "resources"} />
     </div>
