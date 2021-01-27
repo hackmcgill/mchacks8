@@ -186,6 +186,13 @@ const Logos = ({ scrollRef }) => (
       >
         <Image src={vercel} style={{ width: "100%", maxWidth: "75px" }} />
       </NavLink>
+      <NavLink
+        href="http://hackp.ac/mlh-stickermule-hackathons"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image src={stickerMule} style={{ width: "100%", maxWidth: "75px" }} />
+      </NavLink>
     </Content>
   </Container>
 )
