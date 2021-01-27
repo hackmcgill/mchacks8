@@ -37,6 +37,7 @@ import flinks from "../../assets/images/sponsor/new/flinks4.png"
 import ludia from "../../assets/images/sponsor/new/Ludia 1920 x 1080.png"
 import ibwave from "../../assets/images/sponsor/new/logo-iBwave-RED.png"
 import echoar from "../../assets/images/sponsor/new/echoAR.png"
+import neoregan from "../../assets/images/sponsor/new/Neo Regan.png"
 
 const Logos = ({ scrollRef }) => (
   <Container ref={scrollRef}>
@@ -102,21 +103,9 @@ const Logos = ({ scrollRef }) => (
         <Image
           src={balsamiq} style={{ minWidth: "100%", height: "50px" }} />
       </NavLink>
-      
     </Content>
     {/* Tier 3/Byte sponsors */}
     <Content style={{ justifyContent: "space-evenly", alignItems: "center" }}>
-      <NavLink
-        href="https://connect.bigbang360.com/mchacks-21-careers"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Image
-          src={bigbang}
-          style={{ width: "100%", maxWidth: "100px", transform: "scale(1.7)" }}
-        />
-        {/* need an image link for this company */}
-      </NavLink>
       <NavLink
         href="https://www.ludia.com/"
         target="_blank"
@@ -133,6 +122,31 @@ const Logos = ({ scrollRef }) => (
         rel="noopener noreferrer"
       >
         <Image src={flinks} style={{ width: "100%", maxWidth: "150px" }} />
+      </NavLink>
+      <NavLink
+        href="https://www.bionzpharma.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image src={neoregan} style={{ width: "100%", maxWidth: "150px" }} />
+      </NavLink>
+      <NavLink
+        href="http://hackp.ac/mlh-stickermule-hackathons"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image src={stickerMule} style={{ width: "100%", maxWidth: "150px" }} />
+      </NavLink>
+      <NavLink
+        href="https://connect.bigbang360.com/mchacks-21-careers"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image
+          src={bigbang}
+          style={{ width: "100%", maxWidth: "100px", transform: "scale(1.7)" }}
+        />
+        {/* need an image link for this company */}
       </NavLink>
     </Content>
     {/* Tier 4/In-Kind sponsors */}
@@ -185,13 +199,6 @@ const Logos = ({ scrollRef }) => (
         rel="noopener noreferrer"
       >
         <Image src={vercel} style={{ width: "100%", maxWidth: "75px" }} />
-      </NavLink>
-      <NavLink
-        href="http://hackp.ac/mlh-stickermule-hackathons"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Image src={stickerMule} style={{ width: "100%", maxWidth: "75px" }} />
       </NavLink>
     </Content>
   </Container>
