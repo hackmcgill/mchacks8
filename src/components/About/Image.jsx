@@ -8,12 +8,10 @@ export const Image = styled.img`
   top: 30px;
   width: 671px;
   height: auto;
-  
 
   @media only screen and (max-width: 1345px) {
     width: 471px;
   }
-
 
   @media only screen and (max-width: 1118px) {
     max-width: 80%;

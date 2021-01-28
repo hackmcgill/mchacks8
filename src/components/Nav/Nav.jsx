@@ -27,8 +27,8 @@ const Nav = ({
 
   useEffect(() => {
     handleScroll()
-    document.addEventListener('scroll', handleScroll)
-    return () => document.removeEventListener('scroll', handleScroll)
+    document.addEventListener("scroll", handleScroll)
+    return () => document.removeEventListener("scroll", handleScroll)
   }, [])
 
   const NavItems = () => (
@@ -40,7 +40,7 @@ const Nav = ({
     </>
   )
   return (
-    <Container className={hasBorder ? 'has-border' : ''}>
+    <Container className={hasBorder ? "has-border" : ""}>
       <div>
         <IconContainer>
           <Link to="/">

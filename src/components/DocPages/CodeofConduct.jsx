@@ -16,8 +16,8 @@ const CodeOfConduct = () => (
         times.
         <h2>Summary</h2>
         <p>
-          Our hackathon is dedicated to providing a harassment-free space
-          for everyone, regardless of gender, age, sexual orientation, ability,
+          Our hackathon is dedicated to providing a harassment-free space for
+          everyone, regardless of gender, age, sexual orientation, ability,
           physical appearance, race, or religion.
           <br></br>
           <br></br>
@@ -39,11 +39,12 @@ const CodeOfConduct = () => (
         <h2>Full Version</h2>
         <p>
           Harassment includes, but is not limited to: offensive written posts,
-          comments or messages related to gender, age, sexual orientation, ability,
-          physical appearance, race, religion; sexual or graphic images in public
-          spaces; deliberate intimidation; stalking, following, harassing; photography
-          or video recording someone without their consent; sustained disruption of talks
-          or other events; inappropriate virtual/online contact; and unwelcome sexual attention.
+          comments or messages related to gender, age, sexual orientation,
+          ability, physical appearance, race, religion; sexual or graphic images
+          in public spaces; deliberate intimidation; stalking, following,
+          harassing; photography or video recording someone without their
+          consent; sustained disruption of talks or other events; inappropriate
+          virtual/online contact; and unwelcome sexual attention.
           <br></br>
           <br></br>
           Participants exhibiting any of these harmful behaviours will be asked
@@ -61,39 +62,44 @@ const CodeOfConduct = () => (
           <br></br>
           <br></br>
           Photography is encouraged, but participants must be given a reasonable
-          chance to opt out from being photographed. If they object to being photographed,
-          please comply with their request. It is inappropriate to take photographs in
-          contexts where people have a reasonable expectation of privacy, for example
-          if you do not have a participant’s consent to take a screenshot or picture
-          of their screen.
+          chance to opt out from being photographed. If they object to being
+          photographed, please comply with their request. It is inappropriate to
+          take photographs in contexts where people have a reasonable
+          expectation of privacy, for example if you do not have a participant’s
+          consent to take a screenshot or picture of their screen.
           <br></br>
           <br></br>
-          If a participant engages in harmful behaviour, the event organisers may take
-          any action they deem appropriate, including warning the perpetrator or expelling
-          them from the event.
+          If a participant engages in harmful behaviour, the event organisers
+          may take any action they deem appropriate, including warning the
+          perpetrator or expelling them from the event.
           <br></br>
           <br></br>
           If you are being harassed, notice that someone else is being harassed,
-          or have any other concerns, please follow the reporting procedures at the
-          bottom of this document and report the incident immediately. Hackathon staff
-          will be clearly identified and the Co-Directors can be reached at all times via
-          the phone numbers below. We value your attendance and expect participants to
-          follow these rules at hackathon and workshop venues and all related social events.
+          or have any other concerns, please follow the reporting procedures at
+          the bottom of this document and report the incident immediately.
+          Hackathon staff will be clearly identified and the Co-Directors can be
+          reached at all times via the phone numbers below. We value your
+          attendance and expect participants to follow these rules at hackathon
+          and workshop venues and all related social events.
           <br></br>
           <br></br>
-          As we are in the midst of a global pandemic and McHacks is online, we require that
-          participants respect their municipal/state/provincial/federal COVID-19 guidelines.
-          The organizers of McHacks 8 will not be liable if participants break such rules.
-          Every participant is liable for their own actions, words, comments, posts and online activities.
+          As we are in the midst of a global pandemic and McHacks is online, we
+          require that participants respect their
+          municipal/state/provincial/federal COVID-19 guidelines. The organizers
+          of McHacks 8 will not be liable if participants break such rules.
+          Every participant is liable for their own actions, words, comments,
+          posts and online activities.
         </p>
         <h2>Reporting Procedures</h2>
         <p>
-          If you feel uncomfortable or think there may be a potential violation of the code of conduct,
-          please report it through the following methods. All reporters have the right to remain anonymous.
+          If you feel uncomfortable or think there may be a potential violation
+          of the code of conduct, please report it through the following
+          methods. All reporters have the right to remain anonymous.
           <br></br>
           <br></br>
-          Please also don’t hesitate to contact any of the organizers or the security guard on duty at any time.
-          You can get in direct touch with the Co-Directors below:
+          Please also don’t hesitate to contact any of the organizers or the
+          security guard on duty at any time. You can get in direct touch with
+          the Co-Directors below:
           <ul>
             <li>
               <b>Idil Ates</b>: (514) 409-7463{" "}
@@ -108,8 +114,9 @@ const CodeOfConduct = () => (
           </a>
           .<br></br>
           <br></br>
-          If you are uncomfortable reporting a potential violation to the Co-Directors for any reason,
-          please message the MLH Coaches (MLH numbers will be available at the event) on hand for assistance.
+          If you are uncomfortable reporting a potential violation to the
+          Co-Directors for any reason, please message the MLH Coaches (MLH
+          numbers will be available at the event) on hand for assistance.
           <br></br>
           <br></br>
           If you are in need of emergency help, please contact the following

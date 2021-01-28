@@ -33,6 +33,12 @@ const LiveNav = ({ switchPage = () => {}, activePage }) => {
       >
         Sponsor Resources
       </NavLink>
+      <NavLink
+        onClick={() => switchPage("discord")}
+        className={activePage === "discord" ? "active" : ""}
+      >
+        Discord Guide
+      </NavLink>
     </>
   )
   return (
