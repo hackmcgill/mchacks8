@@ -22,12 +22,6 @@ const LiveNav = ({ switchPage = () => {}, activePage }) => {
         Schedule
       </NavLink>
       <NavLink
-        onClick={() => switchPage("maps")}
-        className={activePage === "maps" ? "active" : ""}
-      >
-        Maps
-      </NavLink>
-      <NavLink
         onClick={() => switchPage("info")}
         className={activePage === "info" ? "active" : ""}
       >

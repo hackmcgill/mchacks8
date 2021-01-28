@@ -11,7 +11,21 @@ export const Links = styled.div`
 
   .Nav__socials {
     position: fixed;
-    right: 3.5rem;
+    transition: right 0.25s ease-in-out;
+    z-index: 1;
+
+    right: ${(props) => props.hasBorder ? '4rem' : '16.5rem'};
+  }
+
+  .Nav__mlh-banner {
+    position: fixed;
+    top: 0;
+    right: 4.5rem;
+    width: 90px;
+    height: auto;
+    transition: opacity 0.15s ease-in-out;
+    opacity: ${(props) => props.hasBorder ? '0' : '1'};
+    z-index: 0;
   }
 
   @media only screen and (min-width: ${styleVars.smUp}) {

@@ -19,8 +19,8 @@ const Schedule = ({ visible }) => {
   return (
     <Container className={!visible ? "hidden" : ""}>
       <h2>McHacks Schedule</h2>
-
-      <Sticky enabled={true} top={80}>
+      Coming soon!
+      {/*<Sticky enabled={true} top={80}>
         <div className="DayTabNav">
           <div
             className={"DayTab " + (day === 1 ? "active" : "")}
@@ -49,7 +49,7 @@ const Schedule = ({ visible }) => {
           .map((e, i) => (
             <Event key={i} {...e} />
           ))}
-      </div>
+      </div>*/}
     </Container>
   )
 }
