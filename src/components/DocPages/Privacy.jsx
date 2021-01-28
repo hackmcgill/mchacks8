@@ -43,11 +43,10 @@ const Privacy = () => (
           <br></br>
           <br></br>
           Some of this information may be shared with sponsors with your
-          explicit permission for recruiting purposes. For example, if
-          permitted, we might share a participants Resume or CV with specific
-          sponsors. Information on the application such as race, gender, age,
-          and the like will never be shared with sponsors and are used purely
-          for anonymous demographic reports.
+          explicit permission for recruiting purposes. For example, we might share
+          a participants Resume or CV with specific sponsors. Information on the
+          application such as race, gender, age, and the like will never be shared
+          with sponsors and are used purely for anonymous demographic reports.
         </p>
         <h2>Emails and Other Messages</h2>
         <p>
@@ -90,7 +89,7 @@ const Privacy = () => (
           to ensure that you are comfortable with how we operate.
           <br></br>
           <br></br>
-          <i>Last modified on January 13, 2020.</i>
+          <i>Last modified on January 28, 2021.</i>
         </p>
       </Text>
     </Content>
