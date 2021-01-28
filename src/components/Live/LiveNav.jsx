@@ -16,28 +16,28 @@ const LiveNav = ({ switchPage = () => {}, activePage }) => {
   const NavItems = () => (
     <>
       <NavLink
-        onClick={() => switchPage("schedule")}
-        className={activePage === "schedule" ? "active" : ""}
-      >
-        Schedule
-      </NavLink>
-      <NavLink
         onClick={() => switchPage("info")}
         className={activePage === "info" ? "active" : ""}
       >
         Info
       </NavLink>
       <NavLink
-        onClick={() => switchPage("resources")}
-        className={activePage === "resources" ? "active" : ""}
+        onClick={() => switchPage("schedule")}
+        className={activePage === "schedule" ? "active" : ""}
       >
-        Sponsor Resources
+        Schedule
       </NavLink>
       <NavLink
         onClick={() => switchPage("discord")}
         className={activePage === "discord" ? "active" : ""}
       >
         Discord Guide
+      </NavLink>
+      <NavLink
+        onClick={() => switchPage("resources")}
+        className={activePage === "resources" ? "active" : ""}
+      >
+        Sponsor Resources
       </NavLink>
     </>
   )

@@ -9,7 +9,7 @@ import Resources from "../components/Live/Resources"
 import DiscordGuide from "../components/Discord/DiscordGuide"
 
 const LivePage = () => {
-  const [activePage, _setActivePage] = useState("schedule")
+  const [activePage, _setActivePage] = useState("info")
   const setActivePage = newPage => {
     if (newPage !== activePage) {
       _setActivePage(newPage)
@@ -21,8 +21,8 @@ const LivePage = () => {
     <div>
       <SEO />
       <LiveNav switchPage={setActivePage} activePage={activePage} />
-      <Schedule visible={activePage === "schedule"} />
       <Info visible={activePage === "info"} />
+      <Schedule visible={activePage === "schedule"} />
       <Resources visible={activePage === "resources"} />
       <DiscordGuide visible={activePage === "discord"} />
     </div>

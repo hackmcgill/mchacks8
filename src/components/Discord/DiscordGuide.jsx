@@ -8,9 +8,9 @@ import MarkAsReadGIF from "../../assets/gifs/markasread.gif"
 import ScreenshareGIF from "../../assets/gifs/screenshare.gif"
 import NotifsToMentionGIF from "../../assets/gifs/notifstomention.gif"
 
-const DiscordGuide = () => {
+const DiscordGuide = ({ visible }) => {
   return (
-    <Container>
+    <Container className={!visible ? "hidden" : ""}>
       <Content>
         <Text>
           <h2>What is Discord?</h2>

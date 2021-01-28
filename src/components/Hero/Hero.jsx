@@ -11,8 +11,8 @@ import BuildingImg from "../../assets/images/designs/buildings.svg"
 import RoadImg from "../../assets/images/designs/road.svg"
 import ArrowImg from "../../assets/images/designs/arrow.svg"
 
-const Dashboard = () => {
-  window.location = "https://app.mchacks.ca"
+const Livesite = () => {
+  window.location = "https://mchacks.ca/live"
 }
 
 // const Live = () => {
@@ -35,7 +35,7 @@ const Hero = () => (
         <span class="hero__line">Sign up for updates on McHacks.</span> <span class="hero__line">No spam, we promise.</span>
       </p>
       <SignUpForm /> */}
-      <Button onClick={Dashboard}>Apply Now →</Button>
+      <Button onClick={Livesite}>Event Info →</Button>
       {/* <Button onClick={Live}>Live Site</Button> */}
       <div class="hero__illustrations">
         <Buildings src={BuildingImg} />
