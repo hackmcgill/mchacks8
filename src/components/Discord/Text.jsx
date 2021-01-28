@@ -19,7 +19,7 @@ export const Text = styled.div`
   }
   a {
     :hover {
-        color: #f2463a;
+      color: #f2463a;
     }
   }
 `

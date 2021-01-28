@@ -1,6 +1,5 @@
 import styled from "styled-components"
 
-
 export const Container = styled.nav`
   z-index: 2;
   height: 9rem;

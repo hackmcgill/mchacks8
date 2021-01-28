@@ -26,7 +26,6 @@ import vercel from "../../assets/images/sponsor/vercel.svg"
 import voiceflow from "../../assets/images/sponsor/logo_black.png"
 import wolfram from "../../assets/images/sponsor/wolfram.png"
 
-
 import ivey from "../../assets/images/sponsor/ivey.svg"
 import huawei from "../../assets/images/sponsor/new/Huawei_678x452.png"
 import biztree from "../../assets/images/sponsor/new/BIB-LOGO-BLUE-transparent_bg.png"
@@ -48,7 +47,7 @@ const Logos = ({ scrollRef }) => (
       Our sponsors
     </Content>
     {/* Tier 1/Mega sponsors */}
-    <Content style={{  justifyContent: "space-evenly", textAlign: "center" }}>
+    <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
       <NavLink
         href="https://www.huawei.com/ca/"
         target="_blank"
@@ -72,7 +71,8 @@ const Logos = ({ scrollRef }) => (
         <Image src={biztree} style={{ width: "700px" }} />
       </NavLink>
     </Content>
-    <Content style={{ justifyContent: "space-evenly" }}><NavLink
+    <Content style={{ justifyContent: "space-evenly" }}>
+      <NavLink
         href="https://www.fdmgroup.com/en-ca/ca-graduates/"
         target="_blank"
         rel="noopener noreferrer"
@@ -87,10 +87,8 @@ const Logos = ({ scrollRef }) => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image
-          src={balsamiq} style={{ minWidth: "100%", height: "50px" }} />
+        <Image src={balsamiq} style={{ minWidth: "100%", height: "50px" }} />
       </NavLink>
-      
     </Content>
     {/* Tier 3/Byte sponsors */}
     <Content style={{ justifyContent: "space-evenly", alignItems: "center" }}>
@@ -99,7 +97,8 @@ const Logos = ({ scrollRef }) => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={ivey}
+        <Image
+          src={ivey}
           style={{ width: "100%", maxWidth: "90px", transform: "scale(1.7)" }}
         />
         {/* need an image link for this company */}
@@ -109,7 +108,8 @@ const Logos = ({ scrollRef }) => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={ludia}
+        <Image
+          src={ludia}
           style={{ width: "100%", maxWidth: "80px", transform: "scale(1.7)" }}
         />
         {/* need an image link for this company */}
