@@ -90,7 +90,8 @@ const Logos = ({ scrollRef }) => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={gorilla}
+        <Image
+          src={gorilla}
           style={{ width: "100%", maxWidth: "250px", height: "50px" }}
         />
       </NavLink>

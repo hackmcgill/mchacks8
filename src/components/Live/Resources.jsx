@@ -6,32 +6,16 @@ import Question from "../FAQ/Question"
 const Resources = ({ visible }) => (
   <Container className={!visible ? "hidden" : ""}>
     <h2>Sponsor Resources</h2>
-    <Question question="Wolfram API">
-      30-day complimentary access to the Wolfram development platform and the
-      Wolfram API, just click{" "}
+    <Question question="Balsamiq API">
+      Balsamiq Wireframes is the perfect first UX design tool for anyone
+      interested in getting into UX. It's by far the most approachable: you just
+      drag, drop, and arrange controls on the page, and voila', you made your
+      first User Interface! They even have online courses and articles to teach
+      you all about UI design.
+      <br />
+      Get a free 90 days trial (expires May 1st) using code BQJHGBGXG010521{" "}
       <a
-        href="https://account.wolfram.com/redeem/McHacks7Montreal2020"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        here
-      </a>
-      .<br></br>
-      For more information check out{" "}
-      <a
-        href="https://www.wolfram.com/hackathons/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        https://www.wolfram.com/hackathons/
-      </a>
-      .
-    </Question>
-
-    <Question question="Cisco API">
-      Accelerating your DevOps with the Cisco API found{" "}
-      <a
-        href="https://developer.cisco.com/pyats/"
+        href="https://balsamiq.com/wireframes/cloud/sales/promo/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -40,53 +24,34 @@ const Resources = ({ visible }) => (
       .
     </Question>
 
-    <Question question="Google API">
+    <Question question="Twilio API">
+      Facilitate your app's communication functions with the Twilio API found{" "}
       <a
-        href="https://codelabs.developers.google.com/codelabs/flutter-firebase/#0"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Flutter
-      </a>
-      , an open-source mobile application development SDK created by Google, as
-      well as Firebase, a mobile and web application development platform.
-    </Question>
-
-    <Question question="IBM API">
-      Natural Language Understanding API found{" "}
-      <a
-        href="https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding"
+        href="https://www.twilio.com/blog/apply-promo-code"
         target="_blank"
         rel="noopener noreferrer"
       >
         here
       </a>
       .
+      <br />
+      Get 25$ worth of Twilio credits valid for 5 days starting January 29th
+      with code McHacks_2021 .
     </Question>
 
-    <Question question="Voiceflow Pro">
-      Easily design, prototype, and launch voice apps for Alexa and Google with{" "}
+    <Question question="echoAR API">
+      echoAR is a cloud platform for augmented and virtual reality (AR/VR) that
+      provides tools and server-side infrastructure to help developers &
+      companies quickly build and deploy AR/VR apps and experience. For FREE
+      access to all Business Plan features of the echoAR platform, register{" "}
       <a
-        href="https://www.voiceflow.com/hackathon/mchacks"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Voiceflow Pro
-      </a>
-      .
-    </Question>
-
-    <Question question="Ivey Business School">
-      Create a business model that supports your hack with the Ivey Business
-      Model Canvas found{" "}
-      <a
-        href="https://apps.ivey.ca/FileUpload/eLink/130d8f79-115e-4724-85e6-9b555dc79486_Ivey-business-model-canvas-1.pdf"
+        href="https://console.echoar.xyz/#/auth/register-promo?code=McHacks"
         target="_blank"
         rel="noopener noreferrer"
       >
         here
       </a>
-      ! Prepare a 5 min pitch describing your business.
+      .
     </Question>
   </Container>
 )
