@@ -123,6 +123,7 @@ const Logos = ({ scrollRef }) => (
       >
         <Image src={flinks} style={{ width: "100%", maxWidth: "150px" }} />
       </NavLink>
+      {/*
       <NavLink
         href="https://www.bionzpharma.com/"
         target="_blank"
@@ -130,6 +131,7 @@ const Logos = ({ scrollRef }) => (
       >
         <Image src={neoregan} style={{ width: "100%", maxWidth: "150px" }} />
       </NavLink>
+      */}
       <NavLink
         href="http://hackp.ac/mlh-stickermule-hackathons"
         target="_blank"
