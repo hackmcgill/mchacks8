@@ -38,7 +38,7 @@ const Info = ({ visible }) => (
           for announcements, event Zoom links, to chat with other hackers, and
           to form teams. It’s important for all hackers to be in the Discord as
           it is the main form of communication between hackers, judges,
-          sponsors, and organizers during McHacks.
+          <a href="#">sponsors</a>, and organizers during McHacks.
         </p>
         <p>
           Check out the{" "}
