@@ -37,6 +37,7 @@ import ludia from "../../assets/images/sponsor/new/Ludia 1920 x 1080.png"
 import ibwave from "../../assets/images/sponsor/new/logo-iBwave-RED.png"
 import echoar from "../../assets/images/sponsor/new/echoAR.png"
 import neoregan from "../../assets/images/sponsor/new/Neo Regan.png"
+import googleCloud from "../../assets/images/sponsor/new/google_cloud.png"
 
 const Logos = ({ scrollRef }) => (
   <Container ref={scrollRef}>
@@ -123,15 +124,13 @@ const Logos = ({ scrollRef }) => (
       >
         <Image src={flinks} style={{ width: "100%", maxWidth: "150px" }} />
       </NavLink>
-      {/*
       <NavLink
-        href="https://www.bionzpharma.com/"
+        href="https://edu.google.com/programs/?modal_active=none/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={neoregan} style={{ width: "100%", maxWidth: "150px" }} />
+        <Image src={googleCloud} style={{ width: "100%", maxWidth: "200px" }} />
       </NavLink>
-      */}
       <NavLink
         href="http://hackp.ac/mlh-stickermule-hackathons"
         target="_blank"
