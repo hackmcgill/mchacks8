@@ -42,8 +42,7 @@ const Info = ({ visible }) => (
           <br/><br/>
           Check out the <a href="http://mchacks8.devpost.com">McHacks 8 devpost</a> for
           information on judging and prizes and to submit your team’s hack.
-        </p>
-        <p>
+          <br/><br/>
           Feel free to get in touch with an organizer on Discord if you have any
           questions or concerns! To reach us, you can DM any organizer with the
           green Organizer role, or post in <b>#troubleshooting</b> or{" "}
