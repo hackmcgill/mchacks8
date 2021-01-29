@@ -16,6 +16,7 @@ const events = [
     endTime: "8:45pm",
     description:
       "Get to know Huawei and meet the team! We will be going over potential career prospects, hosting a Q&A session and doing a product raffle! Join us for a chance to win great prizes and learn more about Huawei.",
+    // listDescription: ["Introduction of Huawei Canada by Sabrina Chartrand - Executive Director of Public Affairs (10 mins)", "Career talk by Bryce Healey - Sr. HR Manager - Talent Acquisitions (15 mins)"]
   },
   {
     day: 1,
@@ -34,7 +35,7 @@ const events = [
   },
   {
     day: 1,
-    name: "Web Dev Workshop",
+    name: "Web Dev Workshop: Create a Portfolio with HTML/CSS",
     type: "Workshop",
     location: "Discord/Zoom",
     startTime: "10:00pm",
@@ -44,7 +45,7 @@ const events = [
   },
   {
     day: 1,
-    name: "Among Us",
+    name: "Mini Game: Among Us",
     type: "Activity",
     location: "Discord/Zoom",
     startTime: "11:00pm",
@@ -58,7 +59,17 @@ const events = [
     startTime: "12:00am",
     endTime: "1:00am",
     description:
-      "Put your geographic knowledge to the test in our GeoGuessr challenge! You will be dropped in five random locations on the globe, and your task is to guess where on the map you think you are. The closer your guess is to true location, the more points you will earn! There is no need to pay for a subscription as non-paying members get one free game every 24 hours. A prize will be awarded to whoever has the highest score 12 hours after the challenge has been posted!",
+      "Put your geographic knowledge to the test in our GeoGuesser challenge! You will be dropped in five random locations on the globe, and your task is to guess where on the map you think you are. The closer your guess is to true location, the more points you will earn! There is no need to pay for a subscription as non-paying members get one free game every 24 hours. A prize will be awarded to whoever has the highest score 12 hours after the challenge has been posted!",
+  },
+  {
+    day: 2,
+    name: "Wellness Hour: Guided Meditation",
+    type: "Activity",
+    location: "Discord/Zoom",
+    startTime: "1:00am",
+    endTime: "2:00am",
+    description:
+      "Is staring at the computer screen starting to drive you crazy? Is the debugger making no sense at all? Give your brain a breather, and join us for some guided meditation! ",
   },
   {
     day: 2,
@@ -67,17 +78,10 @@ const events = [
     location: "Discord/Zoom",
     startTime: "2:00am",
     endTime: "7:00am",
-  },
-  {
-    day: 2,
-    name: "Wellness Hour",
-    type: "Activity",
-    location: "Discord/Zoom",
-    startTime: "1:00am",
-    endTime: "2:00am",
     description:
-      "Is staring at the computer screen starting to drive you crazy? Is the debugger making no sense at all? Give your brain a breather, and join us for some guided meditation! ",
+      "Come join us for some fun rounds of mini games! We will be playing skribbl, among us, enigma, wikipedia races, … or come suggest your favourite game! These sessions will be held at various times throughout the night, for our night owls and hackers in different time zones!",
   },
+
   {
     day: 2,
     name: "Coffee Hour",
@@ -142,11 +146,13 @@ const events = [
   },
   {
     day: 2,
-    name: "Math/Logic Competition",
+    name: "Logic Puzzles Competition",
     type: "Activity",
     location: "Discord/Zoom",
     startTime: "2:00pm",
     endTime: "3:00pm",
+    description:
+      "Bring your friends to solve some of the toughest and funniest riddles in teams of four. There will be a wide variety of puzzles requiring you to prove your creativity! The brightest team will win a prize.",
   },
   {
     day: 2,
@@ -167,13 +173,13 @@ const events = [
   },
   {
     day: 2,
-    name: "Cookies!",
+    name: "Baking/Cookies!",
     type: "Activity",
     location: "Discord/Zoom",
     startTime: "5:00pm",
     endTime: "6:00pm",
     description:
-      "Take a break from hacking for a bake-along-with-us chocolate chip cookie making session! Or if those aren't to your taste, make one of your own favorite recipes! We'll be sharing pictures of our baking results once they’re finished. Alternative recipes for gluten-free and vegan cookies will be made available. ",
+      "Take a break from hacking for a bake-along-with-us chocolate chip cookie making session! Or if those aren’t to your taste, make one of your own favorite recipes! We’ll be sharing pictures of our baking results once they’re finished. Alternative recipes for gluten-free and vegan cookies will be made available.",
   },
   {
     day: 2,
@@ -182,7 +188,7 @@ const events = [
     location: "Discord/Zoom",
     startTime: "6:00pm",
     endTime: "7:00pm",
-    description: "Come have dinner with us ! Zoom cafeteria vibes",
+    description: "Come have dinner with us! Zoom cafeteria vibes",
   },
   {
     day: 2,
@@ -196,7 +202,7 @@ const events = [
   },
   {
     day: 2,
-    name: "Netflix Movie Party",
+    name: "Movie Party",
     type: "Activity",
     location: "Discord/Zoom",
     startTime: "8:00pm",
@@ -205,29 +211,56 @@ const events = [
       "Need a breather after a long day of coding? Join us for a special movie night starting at 8pm on Saturday night! Those with a netflix subscription can join a netflix party to watch together. Those without a netflix subscription are welcome to join us to watch a movie on YouTube. Movie choices TBD!",
   },
   {
-    day: 2,
-    name: "Youtube Movie Party",
-    type: "Activity",
-    location: "Discord/Zoom",
-    startTime: "8:00pm",
-    endTime: "10:00pm",
-  },
-  {
     day: 3,
     name: "Midnight Activity 2: Geoguesser",
     type: "Activity",
     location: "Discord/Zoom",
     startTime: "12:00am",
     endTime: "1:00am",
-    description: "Same as yesterday!",
+    description:
+      "Put your geographic knowledge to the test in our GeoGuesser challenge! You will be dropped in five random locations on the globe, and your task is to guess where on the map you think you are. The closer your guess is to true location, the more points you will earn! There is no need to pay for a subscription as non-paying members get one free game every 24 hours. A prize will be awarded to whoever has the highest score 12 hours after the challenge has been posted!",
+  },
+  {
+    day: 3,
+    name: "Wellness Hour: Guided Meditation",
+    type: "Activity",
+    location: "Discord/Zoom",
+    startTime: "1:00am",
+    endTime: "2:00am",
+    description:
+      "Is staring at the computer screen starting to drive you crazy? Is the debugger making no sense at all? Give your brain a breather, and join us for some guided meditation! ",
+  },
+  {
+    day: 3,
+    name: "Mini Games",
+    type: "Activity",
+    location: "Discord/Zoom",
+    startTime: "2:00am",
+    endTime: "7:00am",
+    description:
+      "Come join us for some fun rounds of mini games! We will be playing skribbl, among us, enigma, wikipedia races, … or come suggest your favourite game! These sessions will be held at various times throughout the night, for our night owls and hackers in different time zones!",
+  },
+  {
+    day: 3,
+    name: "DevPost Submission Deadline",
+    type: "Main Event",
+    location: "Devpost",
+    startTime: "7:30am",
   },
   {
     day: 3,
     name: "Hacking Ends",
     type: "Main Event",
-    location: "Discord/Zoom",
     startTime: "9:00am",
     endTime: null,
+  },
+  {
+    day: 3,
+    name: "Demo",
+    type: "Main Event",
+    location: "Discord/Zoom",
+    startTime: "11:00am",
+    endTime: "1:00pm",
   },
   {
     day: 3,
