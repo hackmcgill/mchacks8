@@ -16,6 +16,12 @@ export const Container = styled.section`
     color: ${styleVars.colorHackRed};
     font-size: 3rem;
     font-weight: 400;
+    margin-bottom: 0px;
+  }
+
+  p {
+    margin-top: 0px;
+    margin-bottom: 25px;
   }
 
   .sticky-inner-wrapper {

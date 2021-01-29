@@ -19,7 +19,8 @@ const Schedule = ({ visible }) => {
   return (
     <Container className={!visible ? "hidden" : ""}>
       <h2>McHacks Schedule</h2>
-      <Sticky enabled={true} top={80}>
+      <p>All times are in Eastern Time (ET)</p>
+      <Sticky enabled={true} top={80} innerZ={1}>
         <div className="DayTabNav">
           <div
             className={"DayTab " + (day === 1 ? "active" : "")}

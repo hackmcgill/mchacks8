@@ -40,6 +40,7 @@ const Event = ({
         <div className="start">
           {startTime}
           {endTime ? <span> - {endTime}</span> : ""}
+          {" ET"}
           <br />
           <div className="activityType">{type.toUpperCase()}</div>
         </div>
