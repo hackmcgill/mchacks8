@@ -54,7 +54,7 @@ const Logos = ({ scrollRef }) => (
     {/* Tier 1/Mega sponsors */}
     <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
       <NavLink
-        href="https://www.novartis.ca/"
+        href="https://www.novartis.ca/en/careers"
         target="_blank"
         rel="noopener noreferrer"
       >
