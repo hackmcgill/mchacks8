@@ -26,7 +26,7 @@ const Info = ({ visible }) => (
           </ul>
         </p>
         <p>
-          Make sure to join the <a href="https://discord.gg/t8zFHZ9v">McHacks 8 Discord</a> server for announcements, event Zoom links, to chat with other hackers, and to form teams. It’s important for all hackers to be in the Discord as it is the main form of communication between hackers, judges, sponsors, and organizers during McHacks. 
+          Make sure to join the <a href="https://discord.gg/XZ9Xd5j4NF">McHacks 8 Discord</a> server for announcements, event Zoom links, to chat with other hackers, and to form teams. It’s important for all hackers to be in the Discord as it is the main form of communication between hackers, judges, sponsors, and organizers during McHacks. 
         </p>
         <p>
           Check out the <a href="http://mchacks8.devpost.com">McHacks 8 devpost</a> for information on judging and prizes and to submit your team’s hack.
