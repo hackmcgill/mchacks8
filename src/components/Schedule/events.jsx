@@ -9,7 +9,7 @@ const events = [
   },
   {
     day: 1,
-    name: "Huawei event",
+    name: "Huawei Event",
     type: "Workshop",
     location: "Discord",
     startTime: "8:00pm",
@@ -29,7 +29,6 @@ const events = [
     day: 1,
     name: "Hacking Begins",
     type: "Main Event",
-    location: "Discord",
     startTime: "9:00pm",
     endTime: null,
   },
@@ -44,18 +43,26 @@ const events = [
       "Looking to make a personal website or portfolio but don't know where to start? Join us for this workshop on creating a portfolio with HTML/CSS! You'll learn some basic HTML/CSS from a walkthrough with us on how to create a portfolio webpage that you can push right to deployment or expand on after. Before the workshop, be sure to sign up for Glitch or link it to your Github account (www.glitch.com).",
   },
   {
+    day: 1,
+    name: "Among Us",
+    type: "Activity",
+    location: "Discord",
+    startTime: "11:00pm",
+    endTime: "12:00am",
+  },
+  {
     day: 2,
     name: "Midnight Activity 1: Geoguesser",
     type: "Activity",
     location: "Discord",
     startTime: "12:00am",
-    endTime: "12:30am",
+    endTime: "1:00am",
     description:
       "Put your geographic knowledge to the test in our GeoGuessr challenge! You will be dropped in five random locations on the globe, and your task is to guess where on the map you think you are. The closer your guess is to true location, the more points you will earn! There is no need to pay for a subscription as non-paying members get one free game every 24 hours. A prize will be awarded to whoever has the highest score 12 hours after the challenge has been posted!",
   },
   {
     day: 2,
-    name: "Wellness hour",
+    name: "Wellness Hour",
     type: "Activity",
     location: "Discord",
     startTime: "1:00am",
@@ -65,7 +72,7 @@ const events = [
   },
   {
     day: 2,
-    name: "Coffee hour",
+    name: "Coffee Hour",
     type: "Activity",
     location: "Discord",
     startTime: "8:00am",
@@ -109,11 +116,13 @@ const events = [
   },
   {
     day: 2,
-    name: "Biztree Workshop",
+    name: "Business-In-A-Box Workshop",
     type: "Workshop",
     location: "Discord",
     startTime: "11:30am",
     endTime: "12:30pm",
+    description:
+      "What does a hacker do exactly? Learn five simple strategies to achieve just about any goal or project. Join the workshop to learn more about the Business-in-a-Box 2021 AI Chatbot Challenge. The team that presents the best solution will win our $3,000 prize.",
   },
   {
     day: 2,
@@ -144,16 +153,16 @@ const events = [
     name: "MLH Powerpoint Karaoke",
     type: "Activity",
     location: "Discord",
-    startTime: "4:15pm",
+    startTime: "4:00pm",
     endTime: "5:00pm",
   },
   {
     day: 2,
-    name: "Cooking",
+    name: "Cookies!",
     type: "Activity",
     location: "Discord",
-    startTime: "6:00pm",
-    endTime: "7:00pm",
+    startTime: "5:00pm",
+    endTime: "6:00pm",
     description:
       "Take a break from hacking for a bake-along-with-us chocolate chip cookie making session! Or if those aren't to your taste, make one of your own favorite recipes! We'll be sharing pictures of our baking results once they’re finished. Alternative recipes for gluten-free and vegan cookies will be made available. ",
   },
@@ -191,7 +200,7 @@ const events = [
     type: "Activity",
     location: "Discord",
     startTime: "12:00am",
-    endTime: "12:30am",
+    endTime: "1:00am",
     description: "Same as yesterday!",
   },
   {
@@ -204,11 +213,19 @@ const events = [
   },
   {
     day: 3,
+    name: "Novartis Keynot",
+    type: "Main Event",
+    location: "Discord",
+    startTime: "1:15pm",
+    endTime: "1:45pm",
+  },
+  {
+    day: 3,
     name: "Closing Ceremonies",
     type: "Main Event",
     location: "Discord",
-    startTime: "1:30pm",
-    endTime: "2:30pm",
+    startTime: "1:45pm",
+    endTime: "2:45pm",
   },
 ]
 

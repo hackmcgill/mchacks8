@@ -51,7 +51,7 @@ const Event = ({
             <small>{subtitle}</small>
           </div>
           {description ? <div className="description">{description}</div> : ""}
-          <div className="location"># {location}</div>
+          {location ? <div className="location"># {location}</div> : ""}
         </div>
       </div>
       <div className="icon">{logo}</div>
