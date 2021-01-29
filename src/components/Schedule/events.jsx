@@ -213,7 +213,7 @@ const events = [
   },
   {
     day: 3,
-    name: "Novartis Keynot",
+    name: "Novartis Keynote",
     type: "Main Event",
     location: "Discord",
     startTime: "1:15pm",
