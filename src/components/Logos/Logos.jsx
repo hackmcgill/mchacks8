@@ -38,6 +38,7 @@ import ibwave from "../../assets/images/sponsor/new/logo-iBwave-RED.png"
 import echoar from "../../assets/images/sponsor/new/echoAR.png"
 import neoregan from "../../assets/images/sponsor/new/Neo Regan.png"
 import googleCloud from "../../assets/images/sponsor/new/google_cloud.png"
+import novartis from '../../assets/images/sponsor/new/Novartis.png'
 
 const Logos = ({ scrollRef }) => (
   <Container ref={scrollRef}>
@@ -53,11 +54,20 @@ const Logos = ({ scrollRef }) => (
     {/* Tier 1/Mega sponsors */}
     <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
       <NavLink
+        href="https://www.novartis.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image src={novartis} style={{ width: "80%" }} />
+      </NavLink>
+    </Content>
+    <Content style={{ justifyContent: "space-evenly", textAlign: "center" }}>
+      <NavLink
         href="https://www.huawei.com/ca/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={huawei} style={{ width: "70%" }} />
+        <Image src={huawei} style={{ width: "700px" }} />
       </NavLink>
     </Content>
     {/* <Content style={{ textAlign: "center", justifyContent: "space-around" }}>
