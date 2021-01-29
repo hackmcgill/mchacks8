@@ -4,6 +4,10 @@ import Text from "../Discord/Text"
 
 import Container from "../Discord/Container"
 
+const Devpost = () => {
+  window.location = "http://mchacks8.devpost.com"
+}
+
 const Info = ({ visible }) => (
   <Container className={!visible ? "hidden" : ""}>
     <Content>
@@ -42,7 +46,7 @@ const Info = ({ visible }) => (
         </p>
         <p>
           Check out the{" "}
-          <a href="http://mchacks8.devpost.com">McHacks 8 devpost</a> for
+          <a href="#" onClick={Devpost}>McHacks 8 devpost</a> for
           information on judging and prizes and to submit your team’s hack.
         </p>
         <p>
