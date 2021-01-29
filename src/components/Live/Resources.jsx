@@ -39,7 +39,7 @@ const Resources = ({ visible }) => (
     <Question question="echoAR API">
       echoAR is a cloud platform for augmented and virtual reality (AR/VR) that
       provides tools and server-side infrastructure to help developers &
-      companies quickly build and deploy AR/VR apps and experience. 
+      companies quickly build and deploy AR/VR apps and experience.
       <br />
       Learn more{" "}
       <a
@@ -53,7 +53,8 @@ const Resources = ({ visible }) => (
     </Question>
 
     <Question question="Big Bang API">
-      This prediction Service from Salesforce is one of Big Bang's core products!
+      This prediction Service from Salesforce is one of Big Bang's core
+      products!
       <br />
       Learn more{" "}
       <a
@@ -77,7 +78,9 @@ const Resources = ({ visible }) => (
     </Question>
 
     <Question question="Business-in-a-Box API">
-      Over 2,000 high-quality fill-in the blanks templates created by business experts & lawyers. Get your business-in-a-box toolkit. Save money on legal fees. Build your dream business. Save your time & money.
+      Over 2,000 high-quality fill-in the blanks templates created by business
+      experts & lawyers. Get your business-in-a-box toolkit. Save money on legal
+      fees. Build your dream business. Save your time & money.
       <br />
       Learn more{" "}
       <a
@@ -89,7 +92,6 @@ const Resources = ({ visible }) => (
       </a>
       .
     </Question>
-
   </Container>
 )
 
