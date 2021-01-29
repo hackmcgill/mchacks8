@@ -8,7 +8,7 @@ import Event from "./Event"
 import events from "./events"
 
 const Schedule = ({ visible }) => {
-  const [day, _setDay] = useState(2)
+  const [day, _setDay] = useState(1)
   const setDay = newDay => {
     if (newDay !== day) {
       _setDay(newDay)
@@ -29,7 +29,7 @@ const Schedule = ({ visible }) => {
             role="button"
             tabIndex={0}
           >
-            February 1st
+            January 29
           </div>
           <div
             className={"DayTab " + (day === 2 ? "active" : "")}
@@ -38,7 +38,16 @@ const Schedule = ({ visible }) => {
             role="button"
             tabIndex={0}
           >
-            February 2nd
+            January 30
+          </div>
+          <div
+            className={"DayTab " + (day === 3 ? "active" : "")}
+            onClick={() => setDay(3)}
+            onKeyDown={() => setDay(3)}
+            role="button"
+            tabIndex={0}
+          >
+            January 31
           </div>
         </div>
       </Sticky>
