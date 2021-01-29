@@ -92,6 +92,36 @@ const Resources = ({ visible }) => (
       </a>
       .
     </Question>
+
+    <Question question="Voiceflow API">
+      Visually design, prototype and publish Alex Skills and Google Actions
+      without writing code!
+      <br />
+      Learn more{" "}
+      <a
+        href="https://www.voiceflow.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        here
+      </a>
+      .
+    </Question>
+
+    <Question question="The Codex">
+      Jumpstart your programming journey with The Codex's engaging projects.
+      Clear, concise, and practical videos with no fluff!
+      <br />
+      Get started{" "}
+      <a
+        href="https://thecodex.me/app/get-started"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        here
+      </a>
+      .
+    </Question>
   </Container>
 )
 
