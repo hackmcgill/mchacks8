@@ -38,7 +38,7 @@ import ibwave from "../../assets/images/sponsor/new/logo-iBwave-RED.png"
 import echoar from "../../assets/images/sponsor/new/echoAR.png"
 import neoregan from "../../assets/images/sponsor/new/Neo Regan.png"
 import googleCloud from "../../assets/images/sponsor/new/google_cloud.png"
-import novartis from '../../assets/images/sponsor/new/Novartis.png'
+import novartis from "../../assets/images/sponsor/new/Novartis.png"
 
 const Logos = ({ scrollRef }) => (
   <Container ref={scrollRef}>
