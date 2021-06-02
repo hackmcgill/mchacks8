@@ -20,8 +20,8 @@ const Privacy = () => (
           <br></br>
           <br></br>
           In order to effectively run a hackathon, we collect certain data from
-          users both on our website passively in the form of usage
-          analytics as well as application data our hackers provide for us.
+          users both on our website passively in the form of usage analytics as
+          well as application data our hackers provide for us.
         </p>
         <h2>Analytics Data</h2>
         <p>
@@ -31,12 +31,12 @@ const Privacy = () => (
           publicly or privately with third parties in broad categories such as
           the number of visitors our properties receive per month or the general
           demographics of our traffic.
-          <br/>
-          <br/>
-          On app.mchacks.ca, personally identifiable information (PII) may be shared with
-          Sentry, an application monitoring software, to help us debug
-          and maintain our software systems. This data will only be used for the
-          purpose of debugging and improving our systems.
+          <br />
+          <br />
+          On app.mchacks.ca, personally identifiable information (PII) may be
+          shared with Sentry, an application monitoring software, to help us
+          debug and maintain our software systems. This data will only be used
+          for the purpose of debugging and improving our systems.
         </p>
         <h2>Application and Event Data</h2>
         <p>
@@ -44,7 +44,8 @@ const Privacy = () => (
           information in order to properly run the event. Information will only
           be used within the services that McHacks utilizes for the Application
           Dashboard. Such services might include but are not limited to
-          instances of a MongoDB server, Netlify, Google Cloud Platform, Heroku, and Sentry.
+          instances of a MongoDB server, Netlify, Google Cloud Platform, Heroku,
+          and Sentry.
           <br></br>
           <br></br>
           Some of this information may be shared with sponsors with your
