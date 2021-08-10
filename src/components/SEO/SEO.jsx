@@ -22,14 +22,14 @@ SEO.defaultProps = {
   meta: ["hackathon", "Canada", "McGill", "Mentorship"],
   description:
     "Canada’s original university hackathon. 36 hour long event of innovation, coding & mentorship happening January 29 - 31 at McGill University",
-  title: "McHacks"
+  title: "McHacks",
 }
 
 SEO.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string.isRequired
+  title: PropTypes.string.isRequired,
 }
 
 export default SEO
